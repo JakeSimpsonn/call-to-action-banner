@@ -29,3 +29,20 @@ p {
   padding: .5em 0 .75em;
   font-family: Roboto;
 }
+
+.banner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-width: 45em;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.robot {
+  width: 33%;
+}
