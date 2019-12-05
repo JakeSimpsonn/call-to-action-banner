@@ -46,3 +46,8 @@ p {
 .robot {
   width: 33%;
 }
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
