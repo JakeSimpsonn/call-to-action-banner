@@ -8,8 +8,6 @@ html {
   box-sizing: inherit;
 }
 
-/* ------------------ body ------------------ */
-
 body {
   margin: 0;
   padding: 0;
@@ -30,6 +28,11 @@ p {
   font-family: Roboto;
 }
 
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
 .banner {
   position: absolute;
   left: 50%;
@@ -47,17 +50,14 @@ p {
   width: 33%;
 }
 
-.img-flex {
-  width: 100%;
-  display: block;
+.banner-wrap {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
 }
 
-.btn-big {
-  font-size: 1.5rem;
-}
-
-.btn:hover {
-  background-color: #d3d3d3;
+.content {
+  width: 60%;
 }
 
 .btn {
@@ -71,12 +71,10 @@ p {
   font-size: 1.125rem;
 }
 
-.content {
-  width: 60%;
+.btn-big {
+  font-size: 1.5rem;
 }
 
-.banner-wrap {
-  position: relative;
-  max-height: 500px;
-  overflow: hidden;
+.btn:hover {
+  background-color: #d3d3d3;
 }
