@@ -51,3 +51,11 @@ p {
   width: 100%;
   display: block;
 }
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #d3d3d3;
+}
