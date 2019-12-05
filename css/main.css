@@ -4,4 +4,8 @@ html {
   font-family: Roboto, "Roboto Condessed", sans-serif;
 }
 
+*, *::before, ::after {
+  box-sizing: inherit;
+}
+
 /*------------------ body ------------------*/
