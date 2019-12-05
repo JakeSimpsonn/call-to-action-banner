@@ -70,3 +70,7 @@ p {
   color: #fff;
   font-size: 1.125rem;
 }
+
+.content {
+  width: 60%;
+}
