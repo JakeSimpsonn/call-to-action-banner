@@ -22,3 +22,10 @@ h2 {
   margin: 0;
   font-family: "Roboto Condensed";
 }
+
+p {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: .5em 0 .75em;
+  font-family: Roboto;
+}
