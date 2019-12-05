@@ -49,7 +49,7 @@ p {
 
 .img-flex {
   width: 100%;
-  display: inline-block;
+  display: block;
 }
 
 .btn-big {
