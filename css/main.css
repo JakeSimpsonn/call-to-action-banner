@@ -74,3 +74,9 @@ p {
 .content {
   width: 60%;
 }
+
+.banner-wrap {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
